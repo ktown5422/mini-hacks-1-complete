@@ -8,7 +8,7 @@ const Card = ({ movie }) => {
                 <div className="shadow-md rounded-lg p-4">
                     <img src={IMAGE_BASE_URL + movie.poster_path} alt="" className="w-full h-46 object-cover rounded-lg" />
                     <div className="mt-4">
-                        <h5 className="text-2xl font-semibold">{movie.title}</h5>
+                        <h5 className=" text-black text-2xl font-semibold">{movie.title}</h5>
                         <p className="text-gray-600 overflow-auto h-20">{movie.overview}</p>
                     </div>
                 </div>
